@@ -1,0 +1,443 @@
+body {
+    color: #000000;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h2,
+h3,
+p {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* HEADER */
+
+.container_header {
+    width: 1261px;
+    margin: 0 auto;
+}
+
+.panel {
+    font-family: 'Mulish', sans-serif;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    width: 491px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu a {
+    font-family: 'DIN';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.btn_now button{
+    border: none;
+
+    padding: 18px 61px;
+    background: #5B6460;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.btn_now button:hover {
+    cursor: pointer;
+    background: #8ba198;
+}
+
+.menu a:hover {
+    padding: 5px;
+    background-color: #a7aaa8;
+    transition: 0.1s;
+}
+
+
+/* ОТЕЛИ */
+.hotels {
+    color: #FFFFFF;
+    width: 100%;
+    height: 85vh;
+    background-image: url(../img/Group\ 168.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+.call {
+    position: absolute;
+    margin-right: 58px;
+    right: 58px;
+}
+
+.call_heading {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 70px;
+    line-height: 72px;
+}
+
+.call_text {
+    position: absolute;
+    width: 333px;
+    text-align: center;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    right: 142px;
+
+}
+
+/* MAIN Cabins*/
+
+section {
+    margin-top: 150px;
+}
+
+.description {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.content,
+.img_carbins {
+    display: inline-block;
+    text-align: right;
+}
+
+.content {
+    margin-right: 105px;
+}
+
+.content_heading {
+    text-align: left;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 50px;
+    color: #5B6460;
+}
+
+.content_text {
+    text-align: left;
+    width: 465px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+
+.read {
+    display: block;  /*ИСПОЛЬЗУЕТСЯ ТАК ЖЕ В: section class="map_territory"*/
+    text-align: left;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+    text-decoration: none;
+    color: #8ba198;
+}
+
+.read:hover {
+    color: #678377;
+}
+
+
+.img_carbins {
+    width: 900px;
+}
+
+/* ФОТО К БЛОКУ CABINS */
+
+.img_home_cabins {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mr_150 {
+    margin-bottom: 150px;
+}
+
+/* КАРТА МЕСТНОСТИ map_territory */
+
+.territory {
+    position: relative;
+    background: #E9ECE0;
+}
+
+.location_map,
+.the_forest {
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+.location_map {
+    position: relative;
+    height: 650px;
+    background: #3E443E;
+}
+
+.map {
+    opacity: 0.4;
+}
+
+.map img {
+    width: 1108px;
+    height: 650px;
+}
+
+.location {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    margin-right: 115px;
+    margin-top: -85px;
+}
+
+.the_forest {
+    position: absolute;
+    background: #E9ECE0;
+    right: 250px;
+}
+
+.content_forest {
+    padding: 149px;
+    padding-right: 200px;
+}
+
+.the_forest_heading {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 50px;
+}
+
+.the_forest_text {
+    width: 465px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 22px;
+}
+
+
+/* ОБОРУДОВАНИЕ block_facilities */
+
+.block_facilities {
+    background: #5B6460;
+    color: #FFFFFF;
+}
+
+.container_facilities {
+    width: 830px;
+    margin: 0 auto;
+}
+
+.content_facilities_heading {
+    padding-top: 86px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin-bottom: 110px;
+}
+
+.facilities {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 137px;
+}
+
+.facilitie_text {
+    margin-top: 10px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+/* БОЛЬШЕ О НАС more_about_as mr_0 */
+
+.more_about_as {
+    background: #5B6460;
+}
+
+.container_more {
+    width: 1408px;
+    margin: 0 auto;
+}
+
+.about_as {
+    position: relative;
+}
+
+.absolute_pan {
+    position: absolute;
+    right: 0px;
+}
+
+.absolute_more {
+    position: absolute;
+    top: 50%;
+    margin-top: -78px;
+    left: 50%;
+    margin-left: -78px;
+}
+
+.about_as a:hover {
+    opacity: 0.9;
+    transition: 0.2s;
+}
+
+.mr_0 {
+    margin-top: 0px;
+}
+
+/* КОНЕЦ САЙТА footer */
+
+footer {
+    background: #5B6460;
+    color: #FFFFFF;
+}
+
+.container_foother {
+    width: 1124px;
+    margin: 0 auto;
+}
+
+.content_foother {
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Newsletter_subtitle {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+
+.Newsletter a {
+    font-family: 'Open Sans';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.Newsletter a:hover {
+    color: #d3d2d2;
+}
+
+.Newsletter a::after {
+    display: block;
+    margin-right: 32px;
+    content: '';
+    border: 1px;
+    background: #ffffff;
+    width: 435px;
+    height: 2px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.Newsletter_text {
+    width: 420px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 30px;
+    opacity: 0.7;
+    margin-bottom: 100px;
+}
+
+.watermark {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 30px;
+    opacity: 0.7;
+}
+
+.item_foother {
+    width: 480px;
+}
+
+.item_links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.item_links a:hover {
+    color: #d3d2d2;
+    transition: 0.1s;
+}
+
+.item_links a {
+    font-family: 'DIN';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.company {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
