@@ -1,0 +1,301 @@
+body {
+    background: #0B1D26;
+    color: #FFFFFF;
+    margin: 0;
+
+}
+
+h2,
+h3,
+p {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* HEADER */
+
+.container-header {
+    width: 1760px;
+    margin: 0 auto;
+}
+
+.prewiev {
+    position: relative;
+    height: 100vw;
+}
+
+.prewievText {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.panel {
+    padding-top: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    width: 283px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item a {
+    text-decoration: none;
+    color: #ffffff;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+
+
+
+
+/* ЗАГОЛОВОК */
+
+.cover {
+    background: url("../img/background.png") center no-repeat;
+    background-size: cover;
+}
+
+.title {
+    width: 962px;
+    margin: 0 auto;
+
+}
+
+
+.text_title {
+    margin-top: 287px;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    letter-spacing: 6px;
+    margin-bottom: 32px;
+    text-transform: uppercase;
+    color: #FBD784;
+}
+
+.text_title::before {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 32px;
+    content: '';
+    border: 1px;
+    background: #FBD784;
+    width: 72px;
+    height: 2px;
+}
+
+.text_heading {
+    font-family: 'Gloock', serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 88px;
+    line-height: 100px;
+    text-transform: capitalize;
+
+}
+
+/* ОСНОВА САЙТА */
+
+.base {
+    margin-top: -325px;
+}
+
+main {
+    margin-top: 0px;
+}
+
+.container-main {
+    width: 1462px;
+    margin: 0 auto;
+}
+
+.content {
+    margin-bottom: 200px;
+}
+
+
+.text_main,
+.content-img,
+.text-contrary {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.text_main {
+    margin-right: 110px;
+    margin-left: 150px;
+}
+
+.text_main a::after {
+    display: block;
+    margin-right: 32px;
+    content: '';
+    border: 1px;
+    background: #FBD784;
+    width: 72px;
+    height: 2px;
+}
+
+.text_main a:hover {
+    color: #d8b054;
+    ;
+}
+
+.content span {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    letter-spacing: 6px;
+    margin-bottom: 32px;
+    text-transform: uppercase;
+    color: #FBD784;
+}
+
+.content span::before {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 32px;
+    content: '';
+    border: 1px;
+    background: #FBD784;
+    width: 72px;
+    height: 2px;
+}
+
+.content_heading {
+    width: 555px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 77px;
+    margin-bottom: 27px;
+}
+
+.content_text {
+    width: 632px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    margin-bottom: 27px;
+}
+
+.content a {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    text-decoration: none;
+    color: #FBD784;
+}
+
+.text-contrary {
+    margin-left: 260px;
+}
+
+.text-contrary a::after {
+    display: block;
+    margin-right: 32px;
+    content: '';
+    border: 1px;
+    background: #FBD784;
+    width: 72px;
+    height: 2px;
+}
+
+.text-contrary a:hover {
+    color: #d8b054;
+    ;
+}
+
+/* ЧИСЛА */
+.text {
+    position: relative;
+}
+
+.numbering {
+    position: absolute;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 240px;
+    line-height: 240px;
+}
+
+/* КОНЕЦ САЙТА */
+
+.foother {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
+.information img {
+    margin-bottom: 24px;
+}
+
+.information_text{
+    font-style: normal;
+    width: 303px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    margin-bottom: 122px;
+}
+
+.information_subtitle_H4{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    opacity: 0.5;
+}
+
+.menu_foother {
+    width: 566px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.menu_foother_subtitle_H3 {
+    font-style: normal;
+    width: 193px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FBD784;
+    margin-bottom: 24px;
+}
+
+.menu_foother a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    text-decoration: none;
+    color: #FFFFFF;
+
+}
+
+.item_menu {
+    margin-bottom: 11px;
+}
+
+.item_menu a:hover {
+    color: #868181;
+}
